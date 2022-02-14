@@ -1,0 +1,153 @@
+body {
+  font-size: 62.25%;
+  position: relative;
+  padding: 15rem;
+}
+.bunny-border {
+  border: 3px solid rgb(255, 99, 99);
+}
+.bunny-color {
+  background-color: #ffa6a6;
+}
+.high-index {
+  z-index: 9999999999999;
+}
+.ear-mask {
+  width: 3rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  position: absolute;
+}
+.left-mask {
+  top: 21.8%;
+  left: 44%;
+  transform: rotate(-238deg);
+}
+.right-mask {
+  top: 21.8%;
+  left: 53%;
+  transform: rotate(-322deg);
+}
+.bunny-ear {
+  height: 10rem;
+  width: 2.5rem;
+  position: absolute;
+  border-radius: 46%;
+}
+.left-ear {
+  top: 12%;
+  left: 42%;
+  transform: rotate(-19deg);
+}
+.right-ear {
+  top: 12%;
+  left: 55%;
+  transform: rotate(19deg);
+}
+.bunny-head {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.bunny-eye {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(255, 99, 99);
+  position: absolute;
+}
+.left-eye {
+  top: 39%;
+  left: 23%;
+}
+.right-eye {
+  top: 39%;
+  left: 67%;
+}
+.bunny-mustache {
+  width: 6rem;
+  border: 1.5px solid;
+  border-color: transparent transparent rgb(255, 99, 99) transparent;
+  position: absolute;
+}
+.upper-left-mustache {
+  left: 57%;
+  top: 50%;
+  transform: rotate(-15deg);
+  width: 4.9rem;
+}
+.mid-left-mustache {
+  left: 50%;
+  top: 59%;
+}
+.bottom-left-mustache {
+  left: 57%;
+  top: 67%;
+  transform: rotate(15deg);
+  width: 4.9rem;
+  z-index: 2147483647;
+}
+.upper-right-mustache {
+  left: 7%;
+  top: 50%;
+  transform: rotate(15deg);
+  width: 4.9rem;
+}
+.mid-right-mustache {
+  left: 3%;
+  top: 59%;
+}
+.bottom-right-mustache {
+  left: 7%;
+  top: 67%;
+  transform: rotate(-15deg);
+  width: 4.9rem;
+  z-index: 2147483647;
+}
+.bunny-nose {
+  width: 1.3rem;
+  height: 0.8rem;
+  position: absolute;
+  background-color: #f8aff2cc;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 65%;
+  border-top-right-radius: 65%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.bunny-mouth {
+  width: 2.5rem;
+  height: 1rem;
+  border-left: 1.5px solid rgb(255, 99, 99);
+  border-right: 1.5px solid rgb(255, 99, 99);
+  border-bottom: 5px solid rgb(255, 99, 99);
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2147483647;
+}
+.bunny-body {
+  margin: 0 auto;
+  margin-top: -2.2rem;
+  height: 30rem;
+  width: 15rem;
+  border-bottom: transparent;
+  border-radius: 50%;
+}
+.body-mask {
+  width: 7.2rem;
+  height: 8rem;
+  position: absolute;
+  top: 38%;
+  left: 49.98%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 999;
+}
